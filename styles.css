@@ -14,6 +14,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     min-height: 100vh;
     background: var(--clr);
 }
@@ -23,6 +24,7 @@ body{
     height: 70px;
     background: #fff;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
@@ -120,4 +122,15 @@ body{
 }
 .navi ul li:nth-child(5).aktiv ~ .indikator{
     transform: translate(calc(70px * 4));
+}
+.container{
+    position: relative;
+    width: 400px;
+    height: 320px;
+    margin: 10px 0 0 0;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
 }
